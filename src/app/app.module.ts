@@ -6,6 +6,9 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './shared/header/header.component';
 import { FooterComponent } from './shared/footer/footer.component';
 import { BodyComponent } from './paginas/body/body.component';
+import { AboutComponent } from './paginas/about/about.component';
+import { ItemComponent } from './paginas/item/item.component';
+import { AppRouting } from './app-routing.prueba';
 
 
 @NgModule({
@@ -14,11 +17,13 @@ import { BodyComponent } from './paginas/body/body.component';
     HeaderComponent,
     FooterComponent,
     BodyComponent,
+    AboutComponent,
+    ItemComponent,
  
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRouting
   ],
   providers: [],
   bootstrap: [AppComponent]
