@@ -1,0 +1,21 @@
+{
+  "equipo" : [ {
+    "frase" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.",
+    "linkedin" : "www.linkedin.com/in/franciscoamoredondo85",
+    "nombre" : "Francisco Amo Redondo",
+    "subtitulo" : "Graphic Designer",
+    "url" : "https://firebasestorage.googleapis.com/v0/b/angular-html-1d995.appspot.com/o/team-1.jpg?alt=media&token=26864f05-c185-4649-beb6-8c8bbd8b3e88"
+  }, {
+    "frase" : "Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit.",
+    "linkedin" : "@angelinawidow",
+    "nombre" : "Shara Jonson",
+    "subtitulo" : "Founder / CEO",
+    "url" : "https://firebasestorage.googleapis.com/v0/b/angular-html-1d995.appspot.com/o/team-2.jpg?alt=media&token=10a6001f-74c0-4163-9ab4-6b73257b6747"
+  }, {
+    "frase" : "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "linkedin" : "@patrickanderson",
+    "nombre" : "Jhon Van Jhon",
+    "subtitulo" : "Art Director",
+    "url" : "https://firebasestorage.googleapis.com/v0/b/angular-html-1d995.appspot.com/o/team-3.jpg?alt=media&token=2fff004f-e26b-49d9-ba15-de66c3d6607f"
+  } ]
+}
