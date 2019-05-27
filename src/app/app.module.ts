@@ -10,6 +10,7 @@ import { AboutComponent } from './paginas/about/about.component';
 import { ItemComponent } from './paginas/item/item.component';
 import { AppRouting } from './app-routing.prueba';
 import{ HttpClientModule } from '@angular/common/http';
+import { SearchComponent } from './paginas/search/search.component';
 
 
 @NgModule({
@@ -20,6 +21,7 @@ import{ HttpClientModule } from '@angular/common/http';
     BodyComponent,
     AboutComponent,
     ItemComponent,
+    SearchComponent,
  
   ],
   imports: [

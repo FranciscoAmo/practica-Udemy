@@ -1,0 +1,19 @@
+<div *ngIf="ProductosService.encontrado; else fallo"
+class="ae-masonry ae-masonry-md-2 ae-masonry-xl-4" >
+    <a *ngFor="let productos of ProductosService.productosFiltrado"
+    [routerLink]="['/item', productos.cod]" class="animated fadeIn rk-item ae-masonry__item">
+      <img src="assets/productos/{{productos.url}}.jpg" alt="">
+      <div class="item-meta">
+        <h2>{{productos.titulo}}</h2>
+        <p>{{productos.categoria}}</p>
+      </div>
+    </a>
+</div>
+
+<ng-template #fallo>    
+      
+        <h3>No Existe Los productos de esa Busqueda</h3>
+       
+        <p>Realice otra busqueda mas especifica</p>
+      
+</ng-template>

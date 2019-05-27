@@ -129,3 +129,8 @@
     animation-name: fadeIn;
   }
   
+  /* anymacion sgv*/
+  svg path,
+svg rect{
+  fill: black;
+}
